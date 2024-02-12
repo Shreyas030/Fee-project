@@ -1,0 +1,204 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    min-height: 100vh;
+    /* background: linear-gradient(to right top, #332213, #2e1d14, #281914, #211613, #1a1211, #1a1211, #1a1211, #1a1211, #211613, #281914, #2e1d14, #332213); */
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+
+/*! Header-Hero-Footer */
+.header-hero-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*! Header */
+.header-outter-box {
+
+    width: 100%;
+    height: 87.2px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 80px 20px 100px;
+    background-color: transparent;
+    border-bottom: 0.1px solid rgb(62, 62, 77);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* z-index: 100; */
+}
+
+/* LOGO */
+
+.logo {
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Big Shoulders Display', sans-serif !important;
+}
+
+.logo-f {
+    font-size: 40px;
+    color: #fc8019;
+}
+
+/* Outter Nav Box */
+.navbar-out-box {
+    width: 80%;
+    /* padding: 20px 100px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+/* Search box */
+.search {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 20rem;
+    height: 2.5rem;
+    font-family: FontAwesome;
+    /* link attached above for icon in placeholder */
+    padding-left: 20px;
+    letter-spacing: 2px;
+    color: white;
+    font-size: small;
+    font-weight: 200;
+
+    /* text-transform:none; */
+    /* text-shadow: 0.5px 0.5px black ; */
+
+
+}
+
+.search::placeholder {
+
+    font-size: 15px;
+
+
+}
+
+
+/* Bag  */
+.bag-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+    border: 1px solid white;
+    border-radius: 50%;
+    
+}
+
+.bag {
+    font-size: 22px;
+    color: white;
+    align-self: center;
+
+}
+
+/*! Hero Section */
+
+.hero-section {
+    width: 100%;
+    height: 600px;
+    background-color: transparent;
+    /* position: relative; */
+    display: flex;
+    flex-direction: row;
+
+}
+
+/*& Hero Left side  */
+.hero-left {
+    width: 50%;
+    height: 600px;
+    background-color: transparent;
+    margin-left: 6rem;
+}
+
+.hero-left-inside {
+    width: 100%;
+    height: 600px;
+    font-size: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-left-inside-text {
+    color: white;
+    font-family: 'Big Shoulders Display', sans-serif;
+
+}
+
+.dream-food {
+    color: #fc8019;
+    font-weight: 800;
+}
+
+/*& Hero Right side  */
+.hero-right {
+    width: 60%;
+    height: 600px;
+    background-color: transparent;
+}
+.hero-right-inside
+{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.hero-right-inside-image
+{
+    width: 500px;
+    height: 500px;
+}
+.eating-image
+{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+
+}
+
+
+
+/*! Footer */
+.footer-inside {
+    width: 100%;
+    height: 400px;
+    background-color: #fc8019;
+}
